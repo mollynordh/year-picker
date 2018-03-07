@@ -25,7 +25,7 @@ function YearInput({ value, openPanel, selected, clear }) {
         className="input-icon input-icon-close fa fa-times"
         onClick={clearHandler}
       />
-    </div>
+</div>
   );
 }
 
