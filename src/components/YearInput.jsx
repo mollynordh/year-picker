@@ -1,6 +1,6 @@
 import React from "react";
 
-function YearInput({ value, openPanel, selected, clear }) {
+function YearInput({ value, openPanel, selected, clear, placeholder }) {
   const selectedClass = selected ? "imput-wrapper-selected" : "";
 
   function clearHandler(e) {
@@ -13,7 +13,7 @@ function YearInput({ value, openPanel, selected, clear }) {
         className="year-input"
         value={value}
         onClick={openPanel}
-        placeholder="Select"
+        placeholder={placeholder}
         readOnly
       />
       <i
