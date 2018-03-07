@@ -2,7 +2,7 @@
 
 @font-face { /*Used by ployly since it cannot set font weights*/
   font-family: 'gotham-light';
-  src: url(../fonts/gotham/GOTHAM-LIGHT.TTF) format('truetype');
+  src: url(./fonts/gotham/GOTHAM-LIGHT.TTF) format('truetype');
   font-weight: 300;
 }
 
