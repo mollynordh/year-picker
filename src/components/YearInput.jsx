@@ -9,11 +9,6 @@ function YearInput({ value, openPanel, selected, clear, placeholder }) {
 
   return (
     <div className={`input-wrapper ${selectedClass}`}>
-      <i
-        name="calendar"
-        className="input-icon input-icon-close fa fa-times"
-        onClick={clearHandler}
-      />
       <input
         className="year-input"
         value={value}
